@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<PackageId>CleanBase.Core..Domain</PackageId>
+	<Authors>HoangVH238</Authors>
+	<Product>CleanBase.Core.Domain</Product>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CleanBase.Core" Version="1.0.7.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+	<None Include="LICENSE" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>

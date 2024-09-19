@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CleanBase.Core" Version="1.0.7.1" />
+    <PackageReference Include="CleanBase.Core" Version="1.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
 	<None Include="../LICENSE" Pack="true" PackagePath="" />
   </ItemGroup>

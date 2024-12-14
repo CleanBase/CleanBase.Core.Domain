@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using CleanBase.Core.Data.Policies.Base;
 using CleanBase.Core.Data.UnitOfWorks;
 using CleanBase.Core.Services.Core.Base;
 using System;
@@ -15,13 +16,14 @@ namespace CleanBase.Core.Domain.Domain.Services
 		protected IMapper Mapper { get; }
 		protected ISmartLogger Logger { get; }
 		protected IIdentityProvider IdentityProvider { get; }
-
+        protected IPolicyFactory PolicyFactory { get; }
 		protected CommonService(ICoreProvider coreProvider, IUnitOfWork unitOfWork)
 		{
 			this.UnitOfWork = unitOfWork;
 			this.Mapper = coreProvider.Mapper;
 			this.Logger = coreProvider.Logger;
 			this.IdentityProvider = coreProvider.IdentityProvider;
+			this.PolicyFactory = coreProvider.PolicyFactory;
 		}
 	}
 }

@@ -5,3 +5,4 @@ CleanBase.Core/.vs/
 CleanBase.Core.Tests/bin/
 CleanBase.Core.Tests/obj/
 CleanBase.Core.Tests/.vs/
+/CleanBase.Core.Domain/obj
